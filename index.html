@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+.navbar{
+  padding-left: 15vh;
+  padding-right: 15vh;
+  height:10vh;
+  
+}
+.navbarbrand{
+  font-weight: bold;
+  color:#696969;
+  font-size:30px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  .navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+ font-size: medium;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color:black;
+ font-weight: 800;
+}
+.responsiveimg {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+  .card {
+         width: 100%;
+
+  }
+      .d-flex flex-row mb-3 {
+    flex-direction: column;
+  }
+}
+h2{
+  padding-top:8vh;
+  font-weight:700;
+}
+.card{
+  border-radius: 20px;
+  float: left;
+  height: 10vh;
+  margin-bottom: 8vh;
+}
+.card-deck{
+  padding-right: 15vw;
+  padding-left: 15vw;
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  margin: 0 -15px;
+    justify-content: space-between;
+}
+@media (min-width: 576px){
+.card-deck {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.card-deck> .card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+}
+.card-deck> .card {
+ 
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  
+}
+.card-footer{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+letter-spacing: 2px;
+text-align: center;
+background-color: #00b359;
+padding: .75rem 1.25rem;
+
+}
+.d-flex flex-row mb-3{
+  display: flex;
+  flex-direction: row;
+}
+
+</style>
+    </head>
+    <body>
+ <nav class="navbar navbar-light text-dark navbar-expand-md  border-bottom ">
+          <span class="navbarbrand " href="#">LOGO</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">EPISODES </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">SHOPS</a>
+                  </li>
+                  <li >
+                    <a class="nav-link text-dark" href="#">DONATE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">SUBSCRIBE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">CONTACT</a>
+                  </li>
+                </ul>
+            </div>
+          </nav><br>
+            <div class="container">
+              <h2>Currently Listening</h2>
+              <h5 style="font-weight: 450; color:#00b359;font-size: 0.5cm;letter-spacing: 2px;padding-top:1vh;">DIES IRAE</h5><br>
+              <img src="photo1.png" class="responsiveimg">
+              <p style="padding-top: 7vh;font-size: 23px;"><span style="font-weight: bold;"> Episode 8:</span> MixCloud Example</p><br>
+              <p style="color:#696969;font-weight: 500;">A wonderful serenity has taken possession of my entire soul, like these <br>sweet mornings of spring which I enjoy with my whole...</p><br>
+              <p style="border-bottom: 3px solid #00b359; width: 3.5vw;" >Summary</p>
+              <p>For Hundreds of years, composers have been using a specific four-note melody to evoke death. It's appeared in dozens
+                of<br> famous movies, and you probably never even realized it. But once you hear it, you'll start noticing it everywhere. 
+                Featuring<br> musicologist Alex Ludwig and Strong Songs Host Krik Hamilton.</p><br>
+                <div class=" card-deck">
+                  <div class="card  mb-4" style="background-color: black;">
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <img src="podcast1.png" class="img-fluid" alt=""  width="100%" id=#apple style="padding-left:10px;
+                            padding-top:10px;padding-bottom:10px;height:10vh;width:5vw;" >
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <p class="card-text" style="margin-top:1.5vh;color:white;">Listen on<br> 
+                                <span style="font-weight:600;"> Apple Podcast</span></p>    
+                            </div>
+                        </div>
+                    </div>
+              </div> 
+              <div class="card mb-4">
+                <div class="row no-gutters">
+                    <div class="col-auto">
+                        <img src="podcast2.png" class="img-fluid" alt=""  width="fit-content" id=#google style="padding-left:10px;padding-top:10px;padding-bottom:10px;height:10vh;width:5vw;">
+                    </div>
+                    <div class="col">
+                        <div class="card-block px-2">
+                            <p class="card-text" style="margin-top:1.5vh;">Listen on<br><span style="font-weight:600;">Google Podcast</span></p>    
+                        </div>
+                    </div>
+                </div>
+          </div> 
+                </div><br><br>
+            <div class="card bg-light" style="height:auto;width:100%;">
+              <div class="row no-gutters">
+                <div class="col-auto">
+            <img src="music1.png" class="img-fluid" alt=""  width="100vh"  style="height:45vh;width:fit-content;" ></div>
+              <div class="card-block card-text"> 
+              <div class="d-flex flex-row mb-3">
+                <div class="p-2 " >
+                <i class="fas" style="padding-left:3vw;padding-top:7vh;color:#00b359;font-size: xx-large;">&#xf04b;</i></div>
+                <div class="p-2">
+                <p style="font-size:18px;padding-top:7vh;font-weight: bold;padding-left: 1.8vw;">Twenty Thousand Hertz <br>#107 | Dies Irae<br>
+                How a four-note melody from the 13th century became a movie<br>
+                soundtrack superstar.</p></div>
+                <div class="p-2">
+                  <i style="font-size:24px;padding-top:7vh;color:#00b359;padding-left:3vw;" class="fa">&#xf142;</i>
+                </div>
+             </div>
+             <div class="card-block card-text d-flex flex-row mb-3">
+               <div class="p-2">
+                 <p style="font-weight:100;padding-left:3vw;">00:00:00</p>
+               </div>
+               <div class="p-2"><img src="cloud.png" class="img-fluid" width=100% style="width:min-content;"></div>
+               <div class="p-2">
+                <p style="font-weight:100;padding-left: 1vw;">02:33:48</p>
+              </div>
+             </div>
+             <div class="card-text d-flex flex-row mb-3">
+               <div class="p-2 align-self-end"><i class="far fa-heart" style="font-size:medium;color:#696969;font-weight: 200;padding-left: 2vw;">2k</i></div>
+               <div class="p-2 align-self-end"><i class="far fa-comment-alt" style="font-size:medium;color:#696969;font-weight: 200;padding-left: 2vw;">700</i></div>
+               <div class="p-2 align-self-end"><i class="fas fa-share-alt"   style="font-size:medium;color:#696969;padding-left: 2vw;">15</i></div>
+             </div>
+
+            </div></div></div><br>
+              <div>
+              <p style="font-weight: 500;font-size: small;" >This episode was written and produced by Casey Emmerling.</p>
+              <div class=" d-flex flex-row mb-3">
+                <div class=" d-flex flex-column mb-3">
+                  <div class="p-2"><i style="font-size:30px;color:#00b359;" class="far fa-stop-circle"></i></div>
+                  <div class="p-2"><div style=" border-left: 3px dotted #00b359;height: 18vh;margin-top:-12px;margin-left:0.8vw ;"  ></div>
+            </div></div>
+            <div class=" d-flex flex-column mb-3">
+           <div class="p-2">Episode 1 5:04 min</div>
+            <div class="p-2"><p style="font-weight: bold;">Quick solution to wordpress problems</p>
+              Loren ipsum dolor sit amet, consectetur adipiscing elit. Nullam et turpis at fellas iaculis <br>
+              pharetra non ut libero.
+            </div>
+            </div></div>
+            <div class=" d-flex flex-row mb-3">
+              <div class=" d-flex flex-column mb-3">
+                <div class="p-2"><i style="font-size:30px;color:#00b359;" class="far fa-stop-circle"></i></div>
+                <div class="p-2"><div style=" border-left: 3px dotted #00b359;height: 18vh;margin-top:-12px;margin-left:0.8vw ;"  ></div>
+          </div></div>
+          <div class=" d-flex flex-column mb-3">
+         <div class="p-2">Episode 1 5:04 min</div>
+          <div class="p-2"><p style="font-weight: bold;">Quick solution to wordpress problems</p>
+            Loren ipsum dolor sit amet, consectetur adipiscing elit. Nullam et turpis at fellas iaculis <br>
+            pharetra non ut libero.
+          </div>
+          </div></div>
+          <div class=" d-flex flex-row mb-3">
+            <div class=" d-flex flex-column mb-3">
+              <div class="p-2"><i style="font-size:30px;color:#00b359;" class="far fa-stop-circle"></i></div>
+              <div class="p-2"><div style=" border-left: 3px dotted #00b359;height: 18vh;margin-top:-12px;margin-left:0.8vw ;"  ></div>
+        </div></div>
+        <div class=" d-flex flex-column mb-3">
+       <div class="p-2">Episode 1 5:04 min</div>
+        <div class="p-2"><p style="font-weight: bold;">Quick solution to wordpress problems</p>
+          Loren ipsum dolor sit amet, consectetur adipiscing elit. Nullam et turpis at fellas iaculis <br>
+          pharetra non ut libero.
+        </div>
+        </div></div>
+        <p style="color:#00b359;font-weight: 400; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">VIEW TRANSCRIPT&nbsp;&nbsp;&nbsp;<i class="fas" style="color:#00b359;font-size: medium;">&#xf04b;</i></p>
+          </div></div>
+         
+          
+            <br><br>
+            <div class="container">
+              
+              <h1 align="center" style="font-family: arial black;">Recent Gallery</h1><br>
+              
+                <div class="card-deck" style="color: white;font-weight: bold;padding-left: 5vw;padding-right: 5vw;">
+                <div class="card " style="height: auto;">
+                <img class="card-img-top" src="c1.png"> 
+                <div class="card-footer ">PERFECT PITCH</div>
+              </div>
+              <div class="card "  style="height: auto;">
+                <img class="card-img-top" src="c2.png"> 
+                <div class="card-footer ">TRYANNOSAURUS FX</div>
+              </div>
+              <div class="card "  style="height: auto;">
+                <img class="card-img-top" src="c3.png"> 
+                <div class="card-footer ">NAPSTER</div>
+              </div>
+            </div><BR><br>
+            <div class="card-deck"  style="color: white;font-weight: bold;padding-left: 5vw;padding-right: 5vw;letter-spacing: 2px;">
+              <div class="card "  style="height: auto;">
+              <img class="card-img-top" src="c4.png"> 
+              <div class="card-footer ">PERFECT PITCH</div>
+            </div>
+            <div class="card"  style="height: auto;">
+              <img class="card-img-top" src="c5.png"> 
+              <div class="card-footer ">TRYANNOSAURUS FX</div>
+            </div>
+            <div class="card "  style="height: auto;">
+              <img class="card-img-top" src="c6.png"> 
+              <div class="card-footer ">NAPSTER</div>
+            </div>
+          </div><br>
+          <div  style="color:#00b359;padding-top: 13vh;text-align: right;padding-right: 7vw;">view Archive</div><br>
+          </div> 
+          <section>
+            <footer class="page-footer font-small bg-light" style="padding-top: 9vh;position: relative;">
+              <div class="container text-center text-md-left">
+                <div class="row  " style="font-weight: 500;font-size: small;padding-bottom: 9vh;">
+                  <div class=" col-md-3 mx-auto">
+                    <h3 style=" font-weight: bold;
+                    color:#696969;
+                    font-size:30px;">LOGO</h3>
+                    <p style="color:#696969;;">Lorem ipsum dolor sit amet,<br>consectetur dipiscing elit</p>
+                    <a class="btn-floating btn-fb mx-1">
+                      <i class="fab fa-facebook-f" style="border-radius: 50%;  font-size: 30px;margin: 5px 2px;width: 30px;
+                      text-align: center; background: #3B5998;color: white;"> </i>
+                    </a>
+                    <a class="btn-floating btn-tw mx-1">
+                      <i class="fab fa-twitter" style="border-radius: 50%;  font-size: 30px;width: 30px;
+                      text-align: center; background: #55ACEE;color: white;margin: 5px 2px;"> </i>
+                    </a>
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <h6 class=" font-weight-bold">Podcasts</h6>
+                    <ul class="list-unstyled">
+                      <li>
+                      The Changelog
+                      </li>
+                      <li>
+                        JS party
+                      </li>
+                      <li>
+                        Go Time
+                      </li>
+                      <li>
+                         Founders Talk
+                      </li>
+                      <li>
+                        Backstage
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <h6 class=" font-weight-bold">Information</h6>
+                    <ul class="list-unstyled">
+                      <li>
+                        About Us
+                      </li>
+                      <li>
+                         Investor Relations
+                      </li>
+                      <li>
+                        Feedback
+                      </li>
+                      <li>
+                        Coustomer Care
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 mx-auto">
+                    <h6 class=" font-weight-bold">Our Stories</h6>
+                    <ul class="list-unstyled">
+                      <li>
+                       Sell on IndiaMART
+                      </li>
+                      <li>
+                        Learning Center
+                      </li>
+                      <li>
+                        Enterprise solution
+                      </li>
+                      <li>
+                       Success Stories
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3 mx-auto">
+                    <h5 class=" font-weight-bold">Backstage newsletter</h5>
+                  <p>
+                    Get closer to the UX action.
+                  </p>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your email address" style="font-size:medium;border-color: #00b359;" >
+                    <div class="input-group-append">
+                      <button class="btn" type="submit" style="background-color:#00b359 ;color: white;font-size:x-small ;">Sign Up</button>
+                    </div>
+                  </div>
+                  </div>
+                  </div>                
+                </div>
+                <div class="footer-copyright text-center py-3 " style="background-color:  #e6e6e6;"><small class="text-muted">© 2020 Copyright 2020.Developed by SecondLineThemes</small></div>
+            </footer>
+          </section>
+    </body>
+</hmtl>
